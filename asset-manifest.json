@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mars-expeditions/static/css/main.138fc592.chunk.css",
+    "main.js": "/mars-expeditions/static/js/main.4bf2cf4b.chunk.js",
+    "main.js.map": "/mars-expeditions/static/js/main.4bf2cf4b.chunk.js.map",
+    "runtime-main.js": "/mars-expeditions/static/js/runtime-main.9a2f1ee8.js",
+    "runtime-main.js.map": "/mars-expeditions/static/js/runtime-main.9a2f1ee8.js.map",
+    "static/js/2.4aec9c9f.chunk.js": "/mars-expeditions/static/js/2.4aec9c9f.chunk.js",
+    "static/js/2.4aec9c9f.chunk.js.map": "/mars-expeditions/static/js/2.4aec9c9f.chunk.js.map",
+    "index.html": "/mars-expeditions/index.html",
+    "static/css/main.138fc592.chunk.css.map": "/mars-expeditions/static/css/main.138fc592.chunk.css.map",
+    "static/js/2.4aec9c9f.chunk.js.LICENSE.txt": "/mars-expeditions/static/js/2.4aec9c9f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a2f1ee8.js",
+    "static/js/2.4aec9c9f.chunk.js",
+    "static/css/main.138fc592.chunk.css",
+    "static/js/main.4bf2cf4b.chunk.js"
+  ]
+}
