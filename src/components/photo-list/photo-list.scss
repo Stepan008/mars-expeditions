@@ -1,0 +1,152 @@
+body {
+    background: rgb(214,91,29);
+    background: linear-gradient(0deg, rgba(214,91,29,1) 4%, rgba(106,127,177,1) 52%, rgba(9,48,131,1) 87%, rgba(11,25,54,1) 98%);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.photo-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.315);
+        margin: 30px 0;
+        border-radius: 20px;
+        
+        .input-section {
+            display: flex;
+            flex-direction: row;
+            > div {
+                margin: 10px;
+                width: 150px;
+            }
+        }
+        .input-section-btn {
+            margin: 10px auto;
+        }
+
+    }
+
+    .photos-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        .image-container {
+            height: 300px;
+            width: 300px;
+            margin: 10px;
+
+            img {
+                height: 100%;
+                width: 100%;
+                border-radius: 5%;
+            }
+
+            .__react_modal_image__modal_container{
+
+                .__react_modal_image__modal_content {
+
+                    .__react_modal_image__medium_img {
+                        width: auto;
+                        height: auto;
+                        max-width: 80%;
+                        max-height: 80%;
+                        border-radius: 0;
+                    }
+                }
+            }
+        }
+        
+    }
+    .btn {
+        width: 120px;
+        height: 50px;
+        font-size: 23px;
+        background-color: #fc4349;
+        color: white;
+        border: none;
+        &:hover {
+            background-color: #9c1b1f;
+        }
+    }
+    .btn-load-more {
+        margin: 20px 0;
+        width: 200px;
+    }
+    
+}
+
+
+.MuiFormControl-root {
+
+    > .MuiFormLabel-root {
+        color: #fc4349;
+        &.Mui-focused {
+            color: white;
+        }
+        &.Mui-disabled {
+            color: #fc4349;
+        }
+    }
+    .MuiInputBase-root {
+        .MuiInputBase-input, .MuiSvgIcon-root {
+            color: #fc4349;
+        }
+        &.Mui-focused {
+            .MuiInputBase-input, .MuiSvgIcon-root {
+                color: white;
+            }
+        }
+    }
+    .MuiFormHelperText-root {
+        color: #fc4349;
+        &.Mui-disabled {
+            color: #fc4349;
+        }
+        &.Mui-focused {
+            color: white;
+        }
+    }
+    
+    >.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+        border: 2px solid white;
+    }
+
+    >.MuiOutlinedInput-root.Mui-disabled .MuiOutlinedInput-notchedOutline, .MuiOutlinedInput-notchedOutline{
+        border: 2px solid #fc4349;
+    }
+    
+}
+
+.MuiCircularProgress-root.MuiCircularProgress-colorPrimary .MuiCircularProgress-svg{
+    color: white;
+}
+
+@media only screen and (max-width: 550px) {
+    .photo-list {
+        form .input-section{
+            flex-direction: column;
+        }
+        .photos-grid .image-container {
+            max-height: 200px;
+            max-width: 200px;
+        }
+    }
+}
